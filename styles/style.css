@@ -2,12 +2,18 @@
   border: 2px dashed hotpink;
 }
 
+/* Extra Utilities */
+
 .rounded-4 {
   border-radius: 0.6rem !important;
 }
 
 .rounded-5 {
   border-radius: 1rem !important;
+}
+
+.text-blue {
+  color: #167ed2;
 }
 
 /* Section Backgrounds */
@@ -27,8 +33,4 @@
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.text-blue {
-  color: #167ed2;
 }
