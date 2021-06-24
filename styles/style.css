@@ -15,3 +15,10 @@
 #newreleases {
   background-color: #1f1f1f;
 }
+
+#jumbo-1 {
+  height: 675px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+  background-size: cover;
+}
