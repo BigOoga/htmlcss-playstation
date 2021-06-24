@@ -38,6 +38,23 @@ body {
   background-color: #1f1f1f;
 }
 
+#ps5-spotlight .active {
+  border-bottom: 2px solid #2d64e6;
+}
+#ps5-spotlight .active img {
+  filter: opacity(100%);
+}
+
+#ps5-spotlight .inactive img {
+  filter: opacity(50%);
+  transition: filter 0.5s;
+}
+
+#ps5-spotlight .inactive:hover img {
+  cursor: pointer;
+  filter: opacity(100%);
+}
+
 #jumbo-1 {
   height: 675px;
   background-image: url(../img/jumbo-bg.png);
