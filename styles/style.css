@@ -24,6 +24,22 @@ header {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1;
+}
+
+.jumbo-select .active {
+  border: 2px solid #2d64e6;
+  border-radius: 1rem;
+  padding: 2px;
+}
+
+.jumbo-select .wrapper {
+  transition: transform 0.5s;
+}
+
+.jumbo-select .wrapper:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
 }
 
 .dropdown-toggle::after {
@@ -210,12 +226,5 @@ footer ul li a:hover {
 }
 
 /* # Hover Effects */
-.jumbo-select img {
-  transition: transform 0.5s;
-}
-.jumbo-select img:hover {
-  transform: translateY(-7px);
-  cursor: pointer;
-}
 
 /*todo Aggiungere tutti gli effetti hover*/
