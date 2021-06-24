@@ -27,6 +27,11 @@ header {
   z-index: 1;
 }
 
+#logo {
+  width: 100px;
+  height: auto;
+}
+
 header .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
 }
