@@ -98,3 +98,14 @@ footer ul li a:hover {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+/* # Hover Effects */
+.jumbo-select img {
+  transition: transform 0.5s;
+}
+.jumbo-select img:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+/*todo Aggiungere tutti gli effetti hover*/
