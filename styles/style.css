@@ -42,3 +42,37 @@
 #ps-now {
   background-color: #161c3b;
 }
+
+footer {
+  background-color: #00439c;
+}
+
+.region {
+  height: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.1);
+}
+
+#sie-logo {
+  width: 150px;
+  height: auto;
+}
+
+#copyright a {
+  color: white;
+}
