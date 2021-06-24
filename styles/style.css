@@ -18,11 +18,24 @@
 
 /* Section Backgrounds */
 
-/* header {
+header {
   background-color: #000000;
   position: fixed;
-  width: 100%;
-} */
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+body {
+  padding-top: 7rem;
+}
+
+main {
+}
 
 #newreleases {
   background-color: #1f1f1f;
@@ -34,6 +47,7 @@
   background-position: top;
   background-size: cover;
 }
+
 #jumbo-2 {
   height: 675px;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -81,4 +95,9 @@ footer ul li a:hover {
 
 #copyright a {
   color: white;
+}
+
+.search-button {
+  font-size: 1.5rem;
+  cursor: pointer;
 }
