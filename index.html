@@ -20,7 +20,78 @@
     <header class="debug-bord">
       <div class="container-f">
         <h3>Sony</h3>
-        <nav>Navbar Navbar Navbar Navbar Navbar</nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/play_logo.svg" alt="" class="img-fluid"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Giochi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <!-- # JUMBOTRON 1 -->
@@ -29,7 +100,7 @@
         <div class="row h-100">
           <div class="column h-100 d-flex flex-column py-5 justify-content-end">
             <div class="row py-3">
-              <div class="col-md-8">
+              <div class="col-sm-7 col-md-8">
                 <img
                   class="img-fluid"
                   src="./img/returnal-hero-banner-logo.png"
@@ -116,7 +187,9 @@
           </h5>
         </div>
         <div class="row debug-bord">
-          <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div
+            class="col-sm-12 col-md-6 d-flex flex-column justify-content-center"
+          >
             <h2 class="py-2">Console PlayStation 5</h2>
             <h5 class="text-secondary py-2">
               Sperimenta la nuova generazione di incredibili giochi PlayStation
@@ -127,24 +200,25 @@
               >
             </div>
           </div>
-          <div class="col-md-6 debug-bord">
+          <div class="col-sm-12 col-md-6 debug-bord">
             <img src="./img/playstation-5-thumb.png" alt="" class="img-fluid" />
           </div>
         </div>
+        <!-- Thumbnails -->
         <div class="row debug-bord">
-          <div class="col-md-2 offset-md-1 debug-bord">
+          <div class="col-sm-4 col-md-2 offset-md-1 debug-bord">
             <img src="./img/playstation-5-thumb.png" alt="" class="img-fluid" />
           </div>
-          <div class="col-md-2 debug-bord">
+          <div class="col-sm-4 col-md-2 debug-bord">
             <img src="./img/joypad-thumb.png" alt="" class="img-fluid" />
           </div>
-          <div class="col-md-2 debug-bord">
+          <div class="col-sm-4 col-md-2 debug-bord">
             <img src="./img/headset-thumb.png" alt="" class="img-fluid" />
           </div>
-          <div class="col-md-2 debug-bord">
+          <div class="col-sm-4 col-md-2 debug-bord">
             <img src="./img/remote-thumb.png" alt="" class="img-fluid" />
           </div>
-          <div class="col-md-2 debug-bord">
+          <div class="col-sm-4 col-md-2 debug-bord">
             <img src="./img/camera-thumb.jpg" alt="" class="img-fluid" />
           </div>
         </div>
@@ -156,7 +230,7 @@
         <div class="row h-100">
           <div class="column h-100 d-flex flex-column py-5 justify-content-end">
             <div class="row py-3">
-              <div class="col-md-8">
+              <div class="col-sm-7 col-md-8 col-lg-3">
                 <img
                   class="img-fluid"
                   src="./img/it-takes-two-logo.png"
@@ -165,7 +239,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-12 col-lg-4">
                 <h2 class="py-2">
                   Un'avventura cooperativa selvaggia ti attende
                 </h2>
@@ -189,7 +263,7 @@
         <h3>Nuove uscite</h3>
         <h4>Giochi incredibili per PS4 e PS5 disponibili ora</h4>
         <div class="row py-3 gy-3">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -197,7 +271,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -205,7 +279,7 @@
             />
             <h5>Crash Bandicoot 4: It's About Time</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -213,7 +287,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -221,7 +295,7 @@
             />
             <h5>Crash Bandicoot 4: It's About Time</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -229,7 +303,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -237,7 +311,7 @@
             />
             <h5>Crash Bandicoot 4: It's About Time</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -245,7 +319,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -253,7 +327,7 @@
             />
             <h5>Crash Bandicoot 4: It's About Time</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -261,7 +335,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -269,7 +343,7 @@
             />
             <h5>Crash Bandicoot 4: It's About Time</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
               alt=""
@@ -277,7 +351,7 @@
             />
             <h5>Tony Hawk's&trade; Pro Skater&trade; 1 + 2</h5>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img
               src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
               alt=""
@@ -291,13 +365,15 @@
     <!-- # PS4 SPOTLIGHT -->
     <section id="ps4-spotlight">
       <div class="container py-3 debug-bord">
-        <h2>Esplora PlayStation 4</h2>
-        <h5 class="text-secondary">
-          Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un
-          momento migliore per giocare sulla tua PS4.
-        </h5>
+        <div class="row text-center">
+          <h2>Esplora PlayStation 4</h2>
+          <h5 class="text-secondary">
+            Giochi incredibili e intrattenimento senza fine. Non c'è mai stato
+            un momento migliore per giocare sulla tua PS4.
+          </h5>
+        </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4">
             <img
               src="./img/ps4-slim-homepage-image-block.jpg"
               alt=""
@@ -312,7 +388,7 @@
               >Scopri di più</a
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4">
             <img
               src="./img/double11-202010-tw-psvr.jpg"
               alt=""
@@ -326,7 +402,7 @@
               >Scopri di più</a
             >
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4">
             <img
               src="./img/dualshock-4-listing-thumb.jpg"
               alt=""
@@ -348,7 +424,7 @@
     <section id="ps-plus">
       <div class="container debug-bord">
         <div class="row">
-          <div class="col-md-6 py-3">
+          <div class="col-sm-12 col-md-6 py-3">
             <div>
               <img class="img-fluid" src="./img/ps-plus-logo.png" alt="" />
             </div>
@@ -362,7 +438,7 @@
             </button>
           </div>
 
-          <div class="col-md-6">
+          <div class="d-sm-none d-col-md-6">
             <img
               src="./img/ps-plus-april-monthly-games-featured-image-block.png"
               alt=""
@@ -380,7 +456,7 @@
           Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4, e
           PS VR, tutti in un unico posto.
         </h5>
-        <div class="row py-3">
+        <div class="row gy-4 py-3">
           <div class="col-md-4">
             <img
               src="./img/playstation-store-games-under-20-spotlight.jpg"
@@ -409,7 +485,7 @@
     <section id="ps-now">
       <div class="container text-white debug-bord">
         <div class="row">
-          <div class="col-md-6 py-3">
+          <div class="col-sm-12 col-md-6 py-3">
             <div>
               <img
                 class="img-fluid"
@@ -427,7 +503,7 @@
             </button>
           </div>
 
-          <div class="col-md-6">
+          <div class="d-sm-none col-md-6">
             <img
               src="./img/ps-now-april-featured-image-block.png"
               alt=""
@@ -459,7 +535,7 @@
     </section>
     <!-- # FOOTER -->
     <footer>
-      <div class="container text-white py-5 debug-bord">
+      <div class="container text-white pt-5 debug-bord">
         <div class="row debug-bord">
           <div class="col-md-12">
             <img src="./img/ps-footer.svg" alt="" class="img-fluid py-3" />
@@ -532,7 +608,7 @@
           </div>
         </div>
         <!-- # BOTTOM FOOTER -->
-        <div id="copyright" class="row debug-bord">
+        <div id="copyright" class="row pt-4 debug-bord">
           <div class="col-md-6">
             <img id="sie-logo" src="./img/sie-logo.svg" alt="" />
             <p>
