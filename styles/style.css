@@ -143,6 +143,43 @@ footer ul li a:hover {
   border-color: black;
 }
 
+.btn-login {
+  background-color: #363636;
+  color: white;
+  border-color: #363636;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-login:hover .btn-wrap {
+  border-color: white;
+}
+
+.btn-explore {
+  background-color: #2d64e6;
+  color: white;
+  border-color: #2d64e6;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-explore:hover .btn-wrap {
+  border-color: white;
+}
+
+.btn-psplus {
+  background-color: #d9dadc;
+  color: white;
+  border-color: #d9dadc;
+  border-radius: 1.5rem;
+  padding: 0;
+  border: 3px solid transparent;
+}
+
+.btn-psplus:hover {
+  border-color: #c4c4c4;
+}
+
 /* # Hover Effects */
 .jumbo-select img {
   transition: transform 0.5s;
