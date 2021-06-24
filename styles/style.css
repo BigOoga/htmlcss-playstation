@@ -27,6 +27,14 @@ header {
   z-index: 1;
 }
 
+header .navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #2d64e6 !important;
+}
+
 .jumbo-select .active {
   border: 2px solid #2d64e6;
   border-radius: 1rem;
