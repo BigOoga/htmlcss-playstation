@@ -284,8 +284,7 @@ header .extra-dropdown ul li a {
 
 header .extra-dropdown ul li a:hover {
   display: inline-block;
-  color: black;
-  text-decoration: underline;
+  color: #2d64e6;
 }
 
 .extra-dropdown .row .col-1:hover {
