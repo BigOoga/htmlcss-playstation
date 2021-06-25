@@ -16,7 +16,38 @@
   color: #167ed2;
 }
 
-/* Section Backgrounds */
+/* # Section Backgrounds */
+
+#newreleases {
+  background-color: #1f1f1f;
+}
+#jumbo-1 {
+  height: 675px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+  background-size: cover;
+}
+#jumbo-2 {
+  height: 675px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#ps-plus {
+  background-color: #bebcbb;
+}
+
+#ps-now {
+  background-color: #161c3b;
+}
+
+footer {
+  background-color: #00439c;
+}
+
+/* * * * * * * * * * * * * * * * */
+
+/* # HEADER */
 
 header {
   background-color: #000000;
@@ -40,6 +71,21 @@ header .navbar-light .navbar-nav .nav-link:hover {
   color: #2d64e6 !important;
 }
 
+.dropdown-toggle::after {
+  display: none;
+}
+
+.search-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+body {
+  padding-top: 6rem;
+}
+
+/* # JUMBO SELECT */
+
 .jumbo-select .active {
   border: 2px solid #2d64e6;
   border-radius: 1rem;
@@ -55,17 +101,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
   cursor: pointer;
 }
 
-.dropdown-toggle::after {
-  display: none;
-}
-
-body {
-  padding-top: 7rem;
-}
-
-#newreleases {
-  background-color: #1f1f1f;
-}
+/* # PS5 SPOTLIGHTS */
 
 #ps5-spotlight .active {
   border-bottom: 2px solid #2d64e6;
@@ -84,31 +120,7 @@ body {
   filter: opacity(100%);
 }
 
-#jumbo-1 {
-  height: 675px;
-  background-image: url(../img/jumbo-bg.png);
-  background-position: top;
-  background-size: cover;
-}
-
-#jumbo-2 {
-  height: 675px;
-  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-#ps-plus {
-  background-color: #bebcbb;
-}
-
-#ps-now {
-  background-color: #161c3b;
-}
-
-footer {
-  background-color: #00439c;
-}
+/* # FOOTER */
 
 .region {
   height: 24px;
@@ -140,10 +152,7 @@ footer ul li a:hover {
   color: white;
 }
 
-.search-button {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
+/* # BUTTONS */
 
 .my-btn {
   display: inline-block;
@@ -153,15 +162,7 @@ footer ul li a:hover {
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  background-color: transparent;
   border: 1px solid transparent;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
   padding: 0;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -237,7 +238,3 @@ footer ul li a:hover {
 .btn-psnow:hover .btn-wrap {
   border-color: #161c3b;
 }
-
-/* # Hover Effects */
-
-/*todo Aggiungere tutti gli effetti hover*/
