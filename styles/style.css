@@ -63,6 +63,10 @@ header {
   height: auto;
 }
 
+.bg-wight {
+  background-color: white !important;
+}
+
 header .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
 }
@@ -126,7 +130,7 @@ body {
   height: 24px;
 }
 
-ul {
+footer ul {
   list-style-type: none;
   padding: 0;
 }
@@ -237,4 +241,47 @@ footer ul li a:hover {
 
 .btn-psnow:hover .btn-wrap {
   border-color: #161c3b;
+}
+
+/* ! Extra e Sperimentali */
+.extra-dropdown {
+  background-color: white;
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+header .extra-dropdown ul li::before {
+  content: "\2022";
+  color: #2d64e6;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.2em;
+  width: 1em;
+  margin-left: -1em;
+}
+
+header .extra-dropdown ul li {
+  display: inline-block;
+}
+
+header .extra-dropdown ul li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+header .extra-dropdown ul li a:hover {
+  display: inline-block;
+  color: black;
+  text-decoration: underline;
+}
+
+/* ! Hover per far apparire il dropdown */
+
+header .navbar-light .navbar-nav .nav-item:hover .extra-dropdown {
+  display: block;
 }
