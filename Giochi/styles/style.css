@@ -65,6 +65,17 @@
 #hogwarts {
   background: linear-gradient(0.25turn, #1e1e1e, #757575);
 }
+
+#release-spotlight {
+  background: white;
+}
+
+#release-spotlight .bg-wrap {
+  background: rgb(241, 241, 241);
+  height: 600px;
+  /*todo Trovare un modo di rendere responsive*/
+}
+
 #ps-plus {
   background-color: #bebcbb;
 }
