@@ -12,6 +12,16 @@
   color: #167ed2;
 }
 
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.fs-8 {
+  font-size: 0.6rem !important;
+}
+.fs-9 {
+  font-size: 0.4rem !important;
+}
+
 /* # Section Backgrounds */
 
 #newreleases {
@@ -154,6 +164,22 @@ body {
 #ps5-spotlight .inactive:hover img {
   cursor: pointer;
   filter: opacity(100%);
+}
+
+/*# EXCLUSIVES */
+
+#exclusives a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+#exclusives .col-auto {
+  border-bottom: 2px solid grey;
+}
+
+#exclusives .active {
+  border-bottom: 2px solid #167ed2;
 }
 
 /* # FOOTER */
