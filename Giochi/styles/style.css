@@ -36,25 +36,14 @@
 }
 
 #horizon {
-  background-image: url("../img/horizon.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
-
-#horizon > .bg-wrapper {
-  background: linear-gradient(0.25turn, #757575 60%, rgba(255, 255, 255, 0));
+  background-color: #757575;
+  background-image: none;
 }
 
 #g-turismo {
-  background-image: url("../img/gturismo.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
-
-#g-turismo > .bg-wrapper {
-  background: linear-gradient(0.25turn, #4d7785 60%, rgba(255, 255, 255, 0));
+  background-image: url("../img/granturismobg.jpg");
+  background-color: #4d7785;
+  background-image: none;
 }
 
 #fifa {
@@ -340,4 +329,19 @@ header .extra-dropdown ul li a:hover {
 
 header .navbar-light .navbar-nav .nav-item:hover .extra-dropdown {
   display: block;
+}
+
+@media screen and (min-width: 992px) {
+  #horizon {
+    background-image: url("../img/horizonbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #g-turismo {
+    background-image: url("../img/granturismobg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
