@@ -58,22 +58,50 @@
 }
 
 #fifa {
+  background-image: url("../img/fifa-21-ps4-screen-03-en-23jul20.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
 
 #fifa > .bg-wrapper {
-  background: linear-gradient(0.25turn, #757575, #fff);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 1)
+  );
 }
 
 #cod {
-  background: linear-gradient(0.25turn, #1e1e1e, #757575);
+  background-image: url("../img/call-of-duty-black-ops-cold-war-screen-08-en-26aug20.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+#cod > .bg-wrapper {
+  background: linear-gradient(to right, #1f1f1f 1%, rgba(26, 26, 26, 0.5));
 }
 
 #re8 {
-  background: linear-gradient(0.25turn, #192733, #757575);
+  background-image: url("../img/resident-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
 }
 
+#re8 > .bg-wrapper {
+  background: linear-gradient(to right, #192734 1%, rgba(26, 26, 26, 0.5));
+}
 #hogwarts {
-  background: linear-gradient(0.25turn, #1e1e1e, #757575);
+  background-image: url("../img/hogwarts-legacy-key-art-01-ps5-en-02oct20.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hogwarts > .bg-wrapper {
+  background: linear-gradient(to right, #1f1f1f, rgba(26, 26, 26, 0.5));
 }
 
 #release-spotlight {
