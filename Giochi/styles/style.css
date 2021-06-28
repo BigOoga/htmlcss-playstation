@@ -31,7 +31,7 @@
 #jumbo-1 {
   height: 675px;
   background-image: url(../img/spiderman.jpg);
-  background-position: top;
+  background-position: right;
   background-size: cover;
 }
 
@@ -72,7 +72,7 @@
 
 #release-spotlight .bg-wrap {
   background: rgb(241, 241, 241);
-  height: 600px;
+  height: 100%;
   /*todo Trovare un modo di rendere responsive*/
 }
 
