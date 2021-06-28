@@ -35,13 +35,6 @@
   background-size: cover;
 }
 
-#jumbo-2 {
-  height: 675px;
-  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 #horizon {
   background-color: #757575;
 }
@@ -73,7 +66,6 @@
 #release-spotlight .bg-wrap {
   background: rgb(241, 241, 241);
   height: 100%;
-  /*todo Trovare un modo di rendere responsive*/
 }
 
 #articles {
@@ -143,42 +135,6 @@ header .navbar-light .navbar-nav .nav-link:hover .chevron-wrapper {
 
 body {
   padding-top: 6rem;
-}
-
-/* # JUMBO SELECT */
-
-.jumbo-select .active {
-  border: 2px solid #2d64e6;
-  border-radius: 1rem;
-  padding: 2px;
-}
-
-.jumbo-select .wrapper {
-  transition: transform 0.5s;
-}
-
-.jumbo-select .wrapper:hover {
-  transform: translateY(-7px);
-  cursor: pointer;
-}
-
-/* # PS5 SPOTLIGHTS */
-
-#ps5-spotlight .active {
-  border-bottom: 2px solid #2d64e6;
-}
-#ps5-spotlight .active img {
-  filter: opacity(100%);
-}
-
-#ps5-spotlight .inactive img {
-  filter: opacity(50%);
-  transition: filter 0.5s;
-}
-
-#ps5-spotlight .inactive:hover img {
-  cursor: pointer;
-  filter: opacity(100%);
 }
 
 /*# EXCLUSIVES */
@@ -260,18 +216,6 @@ footer ul li a:hover {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btn-buy {
-  background-color: #cd3d0f;
-  color: white;
-  border-color: #cd3d0f;
-  border-radius: 1.5rem;
-  padding: 0;
-}
-
-.btn-buy:hover .btn-wrap {
-  border-color: black;
-}
-
 .btn-login {
   background-color: #363636;
   color: white;
@@ -296,20 +240,7 @@ footer ul li a:hover {
   border-color: white;
 }
 
-.btn-psplus {
-  background-color: #d9dadc;
-  color: #2d64e6;
-  border-color: #d9dadc;
-  border-radius: 1.5rem;
-  padding: 0;
-  border: 3px solid transparent;
-}
-
-.btn-psplus:hover {
-  border-color: #c4c4c4;
-}
-
-.btn-psnow {
+.btn-brighter {
   background-color: #f5f5f5;
   color: black;
   border-color: #f5f5f5;
@@ -317,7 +248,7 @@ footer ul li a:hover {
   padding: 0;
 }
 
-.btn-psnow:hover .btn-wrap {
+.btn-brighter:hover .btn-wrap {
   border-color: #161c3b;
 }
 

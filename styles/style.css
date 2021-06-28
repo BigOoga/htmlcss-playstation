@@ -12,6 +12,16 @@
   color: #167ed2;
 }
 
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.fs-8 {
+  font-size: 0.6rem !important;
+}
+.fs-9 {
+  font-size: 0.4rem !important;
+}
+
 /* # Section Backgrounds */
 
 #newreleases {
