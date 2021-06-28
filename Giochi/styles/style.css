@@ -76,6 +76,10 @@
   /*todo Trovare un modo di rendere responsive*/
 }
 
+#articles {
+  background-color: white;
+}
+
 #ps-plus {
   background-color: #bebcbb;
 }
@@ -191,6 +195,11 @@ body {
 
 #exclusives .active {
   border-bottom: 2px solid #167ed2;
+}
+
+#partnership img {
+  width: 200px;
+  height: auto;
 }
 
 /* # FOOTER */
