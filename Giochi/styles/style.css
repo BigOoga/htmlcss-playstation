@@ -40,6 +40,21 @@
   background-color: #4d7785;
 }
 
+#fifa {
+  background: linear-gradient(0.25turn, #757575, #fff);
+}
+
+#cod {
+  background: linear-gradient(0.25turn, #1e1e1e, #757575);
+}
+
+#re8 {
+  background: linear-gradient(0.25turn, #192733, #757575);
+}
+
+#hogwarts {
+  background: linear-gradient(0.25turn, #1e1e1e, #757575);
+}
 #ps-plus {
   background-color: #bebcbb;
 }
