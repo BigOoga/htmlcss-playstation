@@ -1,0 +1,302 @@
+/* Extra Utilities */
+
+.rounded-4 {
+  border-radius: 0.6rem !important;
+}
+
+.rounded-5 {
+  border-radius: 1rem !important;
+}
+
+.text-blue {
+  color: #167ed2;
+}
+
+/* # Section Backgrounds */
+
+#newreleases {
+  background-color: #1f1f1f;
+}
+
+#jumbo-1 {
+  height: 675px;
+  background-image: url(../img/spiderman.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+#jumbo-2 {
+  height: 675px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#horizon {
+  background-color: #757575;
+}
+
+#ps-plus {
+  background-color: #bebcbb;
+}
+
+#ps-now {
+  background-color: #161c3b;
+}
+
+footer {
+  background-color: #00439c;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/* # HEADER */
+
+header {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+.bg-wight {
+  background-color: white !important;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #2d64e6 !important;
+}
+
+.chevron-wrapper {
+  display: inline-block;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover .chevron-wrapper {
+  transform: rotate(180deg);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.search-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+body {
+  padding-top: 6rem;
+}
+
+/* # JUMBO SELECT */
+
+.jumbo-select .active {
+  border: 2px solid #2d64e6;
+  border-radius: 1rem;
+  padding: 2px;
+}
+
+.jumbo-select .wrapper {
+  transition: transform 0.5s;
+}
+
+.jumbo-select .wrapper:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+/* # PS5 SPOTLIGHTS */
+
+#ps5-spotlight .active {
+  border-bottom: 2px solid #2d64e6;
+}
+#ps5-spotlight .active img {
+  filter: opacity(100%);
+}
+
+#ps5-spotlight .inactive img {
+  filter: opacity(50%);
+  transition: filter 0.5s;
+}
+
+#ps5-spotlight .inactive:hover img {
+  cursor: pointer;
+  filter: opacity(100%);
+}
+
+/* # FOOTER */
+
+.region {
+  height: 24px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: white;
+  transform: scale(1.1);
+}
+
+#sie-logo {
+  width: 150px;
+  height: auto;
+}
+
+#copyright a {
+  color: white;
+}
+
+/* # BUTTONS */
+
+.my-btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-wrap {
+  border: 2px solid transparent;
+  border-radius: 1.5rem;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-buy {
+  background-color: #cd3d0f;
+  color: white;
+  border-color: #cd3d0f;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-buy:hover .btn-wrap {
+  border-color: black;
+}
+
+.btn-login {
+  background-color: #363636;
+  color: white;
+  border-color: #363636;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-login:hover .btn-wrap {
+  border-color: white;
+}
+
+.btn-explore {
+  background-color: #2d64e6;
+  color: white;
+  border-color: #2d64e6;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-explore:hover .btn-wrap {
+  border-color: white;
+}
+
+.btn-psplus {
+  background-color: #d9dadc;
+  color: #2d64e6;
+  border-color: #d9dadc;
+  border-radius: 1.5rem;
+  padding: 0;
+  border: 3px solid transparent;
+}
+
+.btn-psplus:hover {
+  border-color: #c4c4c4;
+}
+
+.btn-psnow {
+  background-color: #f5f5f5;
+  color: black;
+  border-color: #f5f5f5;
+  border-radius: 1.5rem;
+  padding: 0;
+}
+
+.btn-psnow:hover .btn-wrap {
+  border-color: #161c3b;
+}
+
+/* # NAV DROPDOWN */
+
+.extra-dropdown {
+  background-color: white;
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+header .extra-dropdown ul li::before {
+  content: "\2022";
+  color: #2d64e6;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.2em;
+  width: 1em;
+  margin-left: -1em;
+}
+
+header .extra-dropdown ul li {
+  display: inline-block;
+}
+
+header .extra-dropdown ul li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+header .extra-dropdown ul li a:hover {
+  display: inline-block;
+  color: #2d64e6;
+}
+
+.extra-dropdown .row .col-1:hover {
+  box-shadow: 0px 0px 10px grey;
+}
+
+header .navbar-light .navbar-nav .nav-item:hover .extra-dropdown {
+  display: block;
+}
