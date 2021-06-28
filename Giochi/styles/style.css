@@ -36,11 +36,25 @@
 }
 
 #horizon {
-  background-color: #757575;
+  background-image: url("../img/horizon.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#horizon > .bg-wrapper {
+  background: linear-gradient(0.25turn, #757575 60%, rgba(255, 255, 255, 0));
 }
 
 #g-turismo {
-  background-color: #4d7785;
+  background-image: url("../img/gturismo.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#g-turismo > .bg-wrapper {
+  background: linear-gradient(0.25turn, #4d7785 60%, rgba(255, 255, 255, 0));
 }
 
 #fifa {
