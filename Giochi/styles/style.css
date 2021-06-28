@@ -58,6 +58,9 @@
 }
 
 #fifa {
+}
+
+#fifa > .bg-wrapper {
   background: linear-gradient(0.25turn, #757575, #fff);
 }
 
