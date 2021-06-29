@@ -32,7 +32,7 @@
   background-image: url(../img/jumbo-bg.png);
 }
 
-#jumbo-ittakestwo {
+#jumbo-itt {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
@@ -40,6 +40,11 @@
   height: 675px;
   background-position: center;
   background-size: cover;
+}
+
+#jumbo-itt .bg-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 #ps-plus {
